@@ -1,6 +1,6 @@
-from GPBot import Stark
+from NoinoiRobot import Stark
 from telethon import events, Button
-from GPBot.status import *
+from NoinoiRobot.status import *
 from datetime import timedelta
 import os
 import requests

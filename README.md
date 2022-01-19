@@ -1,32 +1,36 @@
-<p align="center"><a href="https://t.me/TgxBots"><img src="https://telegra.ph/file/6e50a22dcb7bf6a062b1c.jpg" width="2500"></a></p> 
-<h1 align="center"><b>Group-Manager Bot</b></h1>
-<h4 align="center">A Group-Manager Bot made with telethon!</h4>
+<p align="center"><a href="https://t.me/NOINOI_BOT"><img src="https://telegra.ph/file/e14bf8bffc1ca6692678e.jpg"></a></p>
+    <br><b>NOINOI BETA MANAGEMENT BOT</b><br>
+</p>
 
-## Additional Information
-[![Stars](https://img.shields.io/github/stars/TgxBotz/TelethonGPBot?style=flat-square&color=yellow)](https://github.com/TgxBotz/TelethonGPBot/stargazers)
-[![Forks](https://img.shields.io/github/forks/TgxBotz/TelethonGPBot?style=flat-square&color=orange)](https://github.com/TgxBotz/TelethonGPBot/fork)
-[![Size](https://img.shields.io/github/repo-size/TgxBotz/TelethonGPBot?style=flat-square&color=green)](https://github.com/TgxBotz/TelethonGPBot/)   
-[![Python](https://img.shields.io/badge/Python-v3.9-blue)](https://www.python.org/)
-[![Open Source Love svg2](https://badges.frapsoft.com/os/v2/open-source.svg?v=103)](https://github.com/TgxBotz/TelethonGPBot)
 
-## Configs
+## Heroku Deployment 💜
+The easy way to host this bot, deploy to Heroku, Change the app country to Europe (it will help to make the bot stable).
+
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/hyko-xd/NoinoiRobot)
+
+## VPS Deployment 📡
+Get the best Quality of streaming performance by hosting it on VPS, here's the step's:
+
+```sh
+sudo apt update && apt upgrade -y
+sudo apt install git curl python3-pip ffmpeg -y
+pip3 install -U pip
+curl -sL https://deb.nodesource.com/setup_16.x | bash -
+sudo apt-get install -y nodejs
+npm i -g npm
+git clone https://github.com/Hyko-xd/NoinoiStreamBot # clone the repo.
+cd video-stream
+pip3 install -U -r requirements.txt
+cp example.env .env # use vim to edit ENVs
+vim .env # fill up the ENVs (Steps: press i to enter in insert mode then edit the file. Press Esc to exit the editing mode then type :wq! and press Enter key to save the file).
+python3 main.py # run the bot.
+
+# continue the host with screen or anything else, thanks for reading.
 ```
-APP_ID - Your telgam api id.
-API_HASH - Your telgam api Hash.
-TOKEN - Your bot token.
-RULES - Your telegram group rules
-WELCOME_TEXT - The text msg which you want in your welcome msg.
-```
 
-## Our Telegram Support Chat
-[![Telegram](https://img.shields.io/badge/telegram-1b77FF.svg?style=for-the-badge&logo=telegram)](https://t.me/Tgxsupportchat)
+# Credits 💖
 
-# Deploy
-[![Deploy To Heroku](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/TgxBotz/TelethonGPBot/blob/main)
+- [Heyaaman](https://github.com/heyaaman) ``Dev``
 
-# Licence
-[![GNU GPLv3 Image](https://www.gnu.org/graphics/gplv3-127x51.png)](http://www.gnu.org/licenses/gpl-3.0.en.html)
-
-## Credits:
-• [Devsexpo](https://GitHub.com/Devsexpo)
-
+### Support & Updates 🎑
+<a href="https://t.me/CFC_BOT_SUPPORT"><img src="https://img.shields.io/badge/Join-Group%20Support-blue.svg?style=for-the-badge&logo=Telegram"></a> <a href="https://t.me/BAZIGARXD"><img src="https://img.shields.io/badge/Join-Updates%20Channel-blue.svg?style=for-the-badge&logo=Telegram"></a>

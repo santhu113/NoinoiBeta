@@ -1,5 +1,5 @@
 from telethon import events, Button
-from GPBot import Stark
+from NoinoiRobot import Stark
 from Configs import Config
 
 btn =[

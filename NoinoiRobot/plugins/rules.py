@@ -1,4 +1,4 @@
-from GPBot import Stark
+from NoinoiRobot import Stark
 from telethon import events, Button
 from Configs import Config
 

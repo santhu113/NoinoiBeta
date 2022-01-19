@@ -2,15 +2,15 @@ from telethon import events, Button
 from telethon.errors import ChatAdminRequiredError, UserAdminInvalidError
 from telethon.tl.functions.channels import EditBannedRequest
 from telethon.tl.types import ChannelParticipantsAdmins, ChatBannedRights
-from GPBot import Stark
-from GPBot.status import *
+from NoinoiRobot import Stark
+from NoinoiRobot.status import *
 
 
 CLEANER_HELP = """
-**✘ This is A Module To Remove Deleted Accounts From Your Groups!**
+**✨ This is A Module To Remove Deleted Accounts From Your Groups!**
 
-‣ `?zombies` - To find zombies accounts in your chat.
-‣ `?zombies clean` - To remove the deleted accounts from your chat.
+‣ `zombies` - To find zombies accounts in your chat.
+‣ `zombies clean` - To remove the deleted accounts from your chat.
 """
 
 

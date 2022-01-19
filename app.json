@@ -1,18 +1,18 @@
 {
-  "name": "Group-Manager Bot",
-  "description": "A simple group-manager bot made with Python [Telethon].",
-  "logo": "https://telegra.ph/file/ec1495d982c0544404970.jpg",
+  "name": "Noinoi Beta Manager",
+  "description": "A beta group-manager bot made with Python [Telethon].",
+  "logo": "https://telegra.ph/file/5eb517d5b7ba809aa6ae3.jpg",
   "keywords": [
     "telegram",
-    "GPBot",
+    "Noinoi",
     "plugins",
-    "telegram-GPbot",
+    "telegram-Noinoi",
     "productivity",
     "Group-Manager"
   ],
-  "repository": "https://github.com/TgxBotz/TelethonGPBot",
-  "website": "https://github.com/TgxBotz/TelethonGPBot",
-  "success_url": "t.me/TgxBots",
+  "repository": "https://github.com/HYKO-XD/NOINOIROBOT",
+  "website": "https://github.com/HYKO-XD/NOINOIROBOT",
+  "success_url": "t.me/BAZIGARXD",
   "env": {
     "ENV": {
       "description": "Setting this to ANYTHING will enable heroku.",

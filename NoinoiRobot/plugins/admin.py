@@ -1,6 +1,6 @@
 from telethon import events, Button
-from GPBot import Stark
-from GPBot.status import *
+from NoinoiRobot import Stark
+from NoinoiRobot.status import *
 from telethon.tl.functions.channels import EditAdminRequest
 from telethon.tl.types import ChatAdminRights
 from telethon.tl.functions.users import GetFullUserRequest
@@ -81,9 +81,9 @@ async def invitelink(event):
     await event.reply(f"Group link of {event.chat.title} is [here]({link.link})", link_preview=False)
 
 ADMIN_TEXT = """
-**✘ A module from which admins of the chat can use!**
+**✨ A module from which admins of the chat can use!**
 
-‣ `?promote` - To Promote a user in the chat.
-‣ `?demote` - To Demote a user in the chat.
-‣ `?invitelink` - To get invitelink of a chat.
+‣ `promote` - To Promote a user in the chat.
+‣ `demote` - To Demote a user in the chat.
+‣ `invitelink` - To get invitelink of a chat.
 """

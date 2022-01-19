@@ -1,6 +1,6 @@
 from telethon import events, Button, types
-from GPBot import Stark
-from GPBot.status import *
+from NoinoiRobot import Stark
+from NoinoiRobot.status import *
 
 LOCKS_HELP = """
 **✨ Do stickers annoy you? or want to avoid people sharing links? or pictures? You're in the right place!**

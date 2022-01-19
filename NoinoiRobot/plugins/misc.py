@@ -1,6 +1,6 @@
 from telethon import events, Button, types
-from GPBot import Stark
-from GPBot.status import *
+from NoinoiRobot import Stark
+from NoinoiRobot.status import *
 from telethon.tl.types import ChannelParticipantsAdmins
 from datetime import timedelta
 from telethon.tl.functions.photos import GetUserPhotosRequest as P
@@ -8,10 +8,10 @@ from telethon.tl.functions.users import GetFullUserRequest
 
 
 MISC_HELP = """
-**✘ An "odds and ends" module for small, simple commands which don't really fit anywhere.**
+**✨ An "odds and ends" module for small, simple commands which don't really fit anywhere.**
 
-‣ `?id` - To get current chat id or replied user id.
-‣ `?info` - To get info of a user.
+‣ `id` - To get current chat id or replied user id.
+‣ `info` - To get info of a user.
 """
 
 @Stark.on(events.NewMessage(pattern="^[!?/]id"))
@@ -38,7 +38,7 @@ async def info(event):
 
     sed = await Stark(P(user_id=event.sender_id, offset=42, max_id=0, limit=80))
     hn = await Stark(GetFullUserRequest(event.sender_id))
-    text = "**✘ UserInfo:**\n\n"
+    text = "**✨ UserInfo:**\n\n"
     text += "**» Fɪʀsᴛ Nᴀᴍᴇ:** {}\n"
     text += "**» Lᴀsᴛ Nᴀᴍᴇ:** {}\n"
     text += "**» Usᴇʀ-ID:** `{}`\n"
@@ -57,7 +57,7 @@ async def info(event):
     hu = await Stark(GetFullUserRequest(id=input_str))
     sedd = await Stark(P(user_id=input_str, offset=42, max_id=0, limit=80))
 
-    textn = "**✘ UserInfo:**\n\n"
+    textn = "**✨ UserInfo:**\n\n"
     textn += "**» Fɪʀsᴛ Nᴀᴍᴇ:** {}\n"
     textn += "**» Lᴀsᴛ Nᴀᴍᴇ:** {}\n"
     textn += "**» Usᴇʀ-ID:** `{}`\n"

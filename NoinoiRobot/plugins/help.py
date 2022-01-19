@@ -9,12 +9,12 @@ btn =[
     [Button.inline("Chat Cleaner", data="zombies")]]
 
 HELP_TEXT = """
-**Heya {} help menu here:**
+**Hey i am {BOT_USERNAME} help menu here:**
 
 /start - To Start Me ;)
 /help - To Get Available Help Menu
 
-__Report Bugs At--->__ **@TgxSupportChat**
+__Report Bugs At--->__ **@BAZIGARXD**
 All cmd can be used with ! or ? or /.
 """.format(Config.BOT_US)
 

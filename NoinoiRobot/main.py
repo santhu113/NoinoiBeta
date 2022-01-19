@@ -18,5 +18,5 @@ for name in files:
 print("Successfully Started Bot!")
 print("Visit @BAZIGARXD")
 
-if __name__ == "__main__":
+if __name__ == "main":
     Stark.run_until_disconnected()

@@ -22,6 +22,10 @@
       "description": "Your Bot Token.",
       "value": ""
     },
+     "BOT_USERNAME": {
+       "description": "your bot username from @BotFather then fill the group username here without @",
+       "required": true
+    },
     "RULES": {
       "description": "Your Group Rules",
       "value": ""

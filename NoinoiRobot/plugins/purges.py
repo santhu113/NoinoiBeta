@@ -1,14 +1,14 @@
 from telethon import events, Button
-from GPBot import Stark
-from GPBot.status import *
+from NoinoiRobot import Stark
+from NoinoiRobot.status import *
 import time
 
 PR_HELP = """
-**✘ Need to delete lots of messages? That's what purges are for!**
+**✨ Need to delete lots of messages? That's what purges are for!**
 
-‣ `?purge` - Reply to a msg to delete msgs from there.
-‣ `?spurge` - Same as purge, but doesnt send the final confirmation message.
-‣ `?del` - Deletes the replied to message.
+‣ `purge` - Reply to a msg to delete msgs from there.
+‣ `spurge` - Same as purge, but doesnt send the final confirmation message.
+‣ `del` - Deletes the replied to message.
 """
 
 @Stark.on(events.NewMessage(pattern=r"^[?!]purge"))

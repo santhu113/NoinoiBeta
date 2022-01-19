@@ -1,14 +1,3 @@
-#    TelethonGPBot
-#    Copyright (C) 2021 TgxBots
-
-#    This program is distributed in the hope that it will be useful,
-#    but WITHOUT ANY WARRANTY; without even the implied warranty of
-#    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-#    GNU Affero General Public License for more details.
-
-#    See < https://github.com/TgxBots/TelethonGPBot/blob/master/LICENSE > 
-#    for the license.
-
 from telethon import TelegramClient
 import logging
 from Configs import Config

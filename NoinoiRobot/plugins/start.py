@@ -1,11 +1,11 @@
-from GPBot import Stark
+from NoinoiRobot import Stark
 from telethon import events, Button
 
 PM_START_TEXT = """
-**Hi {}**
-I am a bot who works for @TgxSupportChat and can detect spammers in groups can protect groups from then
+**Hey i am {BOT_USERNAME }**
+I am simple manager robot whos help to you for manage your group
 
-**Click the below button for getting help menu!**
+**Click the below help button for the open help menu!**
 """
 
 @Stark.on(events.NewMessage(pattern="^[?!/]start$"))
@@ -13,10 +13,10 @@ async def start(event):
 
     if event.is_private:
        await event.reply(PM_START_TEXT.format(event.sender.first_name), buttons=[
-        [Button.inline("Help And Commands", data="help")],
-        [Button.url("Source Code", "GitHub.com/TgxBotz/TelethonGPBot")]])
+        [Button.inline("Help & Commands", data="help")],
+        [Button.url("Source Code", "GitHub.com/HYKO-XD/NOINOIROBOT")]])
        return
 
     if event.is_group:
-       await event.reply("**I am alive 24/7!**")
+       await event.reply("**I AM ALIVE ✨**")
        return

@@ -1,5 +1,6 @@
 from NoinoiRobot import Stark
 from telethon import events, Button
+from telegram import InlineKeyboardButton, InlineKeyboardMarkup, ParseMode
 
 PM_START_TEXT = """
 **Hey {}** [.](https://telegra.ph/file/622a49ad89f050473b18a.jpg)

@@ -3,10 +3,10 @@ from NoinoiRobot import Stark
 from Configs import Config
 
 btn =[
-    [Button.inline("Admin", data="admin"), Button.inline("Bans", data="bans")],
-    [Button.inline("Pins", data="pins"), Button.inline("Pugres", data="purges")],
-    [Button.inline("Locks", data="locks"), Button.inline("Misc", data="misc")],
-    [Button.inline("Chat Cleaner", data="zombies")]]
+    [Button.inline("Aᴅᴍɪɴ", data="admin"), Button.inline("Bᴀɴs", data="bans")],
+    [Button.inline("Pɪɴs", data="pins"), Button.inline("Pᴜʀɢᴇ", data="purges")],
+    [Button.inline("Lᴏᴄᴋs", data="locks"), Button.inline("Mɪsᴄ", data="misc")],
+    [Button.inline("Cʟᴇᴀɴᴇʀ", data="zombies")]]
 
 HELP_TEXT = """
 **Hey i am {} help menu here:**

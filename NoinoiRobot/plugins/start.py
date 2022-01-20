@@ -13,6 +13,7 @@ async def start(event):
 
     if event.is_private:
        await event.reply(PM_START_TEXT.format(event.sender.first_name), buttons=[
+        [Button.url("Update Channel", "t.me/{UPDATE_CHANNEL}")],
         [Button.url("Add me to Group", "t.me/{BOT_US}?startgroup=true")],
         [Button.inline("Help & Commands", data="help")],
         [Button.url("Source Code", "GitHub.com/HYKO-XD/NOINOIBETA")]])

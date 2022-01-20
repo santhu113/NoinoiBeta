@@ -34,3 +34,9 @@ async def start(event):
        await event.reply("**Please type in pm @NOINOI_BOT **")
 
        return
+    
+    @Stark.on(events.callbackquery.CallbackQuery(data="zoom"))
+
+async def _(event):
+
+    await event.edit(NOINOI_ZOOM, buttons=[[Button.inline("« Bᴀᴄᴋ", data="help")]])

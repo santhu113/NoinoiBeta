@@ -21,7 +21,7 @@ async def start(event):
 
     if event.is_private:
 
-       await event.reply(PM_START_TEXT.format(event.sender.first_name), buttons=[
+       await event.reply(NOINOI_ZOOM.format(event.sender.first_name), buttons=[
 
         [Button.inline("Share ➡️", data="help")],
 

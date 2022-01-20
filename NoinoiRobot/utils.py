@@ -11,4 +11,4 @@ def load_plugins(plugin_name):
     load.logger = logging.getLogger(plugin_name)
     spec.loader.exec_module(load)
     sys.modules["NoinoiRobot.plugins." + plugin_name] = load
-    print("BOT HAS STARTED. . . . " + plugin_name)
+    print("𝐏𝐥𝐮𝐠𝐢𝐧 𝐒𝐮𝐜𝐜𝐞𝐬𝐟𝐮𝐥𝐥𝐲 𝐀𝐝𝐝𝐞𝐝 . . " + plugin_name)

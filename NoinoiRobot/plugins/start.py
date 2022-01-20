@@ -2,7 +2,7 @@ from NoinoiRobot import Stark
 from telethon import events, Button
 
 PM_START_TEXT = """
-**Hey i am {BOT_USERNAME }**
+**Hey i am {BOT_US}**
 I am simple manager robot whos help to you for manage your group
 
 **Click the below help button for the open help menu!**

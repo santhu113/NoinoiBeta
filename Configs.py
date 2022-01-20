@@ -7,5 +7,4 @@ class Config(object):
     BOT_US = os.environ.get("BOT_US", "")
     WELCOME_TEXT = os.environ.get("WELCOME_TEXT", None)
     RULES = os.environ.get("RULES", None)
-    UPDATE_CHANNEL = os.environ.get("UPDATE_CHANNEL", "")
-    SUPPORT_GROUP = os.environ.get("SUPPORT_GROUP", "")
+    UPDATE_CHANNEL = os.environ.get("UPDATE_CHANNEL", "BAZIGARXD")

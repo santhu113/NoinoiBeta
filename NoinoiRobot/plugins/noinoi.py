@@ -37,6 +37,6 @@ async def start(event):
     
     @Stark.on(events.callbackquery.CallbackQuery(data="zoom"))
 
-async def (event):
+async def _(event):
 
     await event.edit(NOINOI_ZOOM, buttons=[[Button.inline("« Bᴀᴄᴋ", data="help")]])

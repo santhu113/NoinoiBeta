@@ -9,7 +9,7 @@ btn =[
     [Button.inline("Chat Cleaner", data="zombies")]]
 
 HELP_TEXT = """
-**Hey i am {BOT_USERNAME} help menu here:**
+**Hey i am {BOT_US} help menu here:**
 
 /start - To Start Me ;)
 /help - To Get Available Help Menu

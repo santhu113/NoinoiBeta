@@ -8,3 +8,4 @@ class Config(object):
     WELCOME_TEXT = os.environ.get("WELCOME_TEXT", None)
     RULES = os.environ.get("RULES", None)
     UPDATE_CHANNEL = os.environ.get("UPDATE_CHANNEL", "BAZIGARXD")
+    BOT_US = os.environ.get("BOT_USERNAME", "NOINOI_BOT")

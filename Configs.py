@@ -7,4 +7,3 @@ class Config(object):
     BOT_US = os.environ.get("BOT_US", None)
     WELCOME_TEXT = os.environ.get("WELCOME_TEXT", None)
     RULES = os.environ.get("RULES", None)
-    BOT_USERNAME = os.environ.get("BOT_USERNAME", None)

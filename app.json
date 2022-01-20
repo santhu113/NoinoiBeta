@@ -34,9 +34,9 @@
       "description": "Get this value from my.telegram.org! Please do not steal",
       "value": ""
     },
-    "BOT_USERNAME": {
+    "BOT_US": {
       "description": "Your Bot username without '@'.",
-      "value": "true"
+      "value": ""
     },
     "API_HASH": {
       "description": "Get this value from my.telegram.org! Please do not steal",

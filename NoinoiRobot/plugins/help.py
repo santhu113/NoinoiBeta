@@ -9,13 +9,11 @@ btn =[
     [Button.inline("Cʟᴇᴀɴᴇʀ", data="zombies")]]
 
 HELP_TEXT = """
-**Hey i am {} help menu here:**
+**Hey i am {} help menu here:** [.](https://telegra.ph/file/622a49ad89f050473b18a.jpg)
 
 /start - To Start Me ;)
 /help - To Get Available Help Menu
 
-__Report Bugs At--->__ **@BAZIGARXD**
-All cmd can be used with ! or ? or /.
 """.format(Config.BOT_US)
 
 

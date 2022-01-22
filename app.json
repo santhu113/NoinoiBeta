@@ -1,7 +1,7 @@
 {
-  "name": "Noinoi Beta Manager",
+  "name": "Santhu Manager",
   "description": "A beta group-manager bot made with Python [Telethon].",
-  "logo": "https://telegra.ph/file/5eb517d5b7ba809aa6ae3.jpg",
+  "logo": "https://te.legra.ph/file/e719f19bbeeb7f55e6202.jpg",
   "keywords": [
     "telegram",
     "Noinoi",
@@ -10,9 +10,9 @@
     "productivity",
     "Group-Manager"
   ],
-  "repository": "https://github.com/HYKO-XD/NOINOIROBOT",
-  "website": "https://github.com/HYKO-XD/NOINOIROBOT",
-  "success_url": "t.me/BAZIGARXD",
+  "repository": "https://github.com/santhu113/NoinoiBeta.git",
+  "website": "https://github.com/santhu113/NoinoiBeta.git",
+  "success_url": "t.me/santhu_music_bot",
   "env": {
     "ENV": {
       "description": "Setting this to ANYTHING will enable heroku.",

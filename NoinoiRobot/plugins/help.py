@@ -9,7 +9,7 @@ btn =[
     [Button.inline("Cʟᴇᴀɴᴇʀ", data="zombies")]]
 
 HELP_TEXT = """
-**Hey i am {} help menu here:** [.](https://telegra.ph/file/622a49ad89f050473b18a.jpg)
+**Hey i am {} help menu here:** [.](https://te.legra.ph/file/e719f19bbeeb7f55e6202.jpg)
 
 /start - To Start Me ;)
 /help - To Get Available Help Menu

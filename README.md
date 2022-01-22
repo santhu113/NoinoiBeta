@@ -1,4 +1,4 @@
-<p align="center"><a href="https://t.me/NOINOI_BOT"><img src="https://telegra.ph/file/e14bf8bffc1ca6692678e.jpg"></a></p>
+<p align="center"><a href="https://t.me/NOINOI_BOT"><img src="https://te.legra.ph/file/e719f19bbeeb7f55e6202.jpg"></a></p>
     <br><b>NOINOI BETA MANAGEMENT BOT</b><br>
 </p>
 
@@ -17,7 +17,7 @@ News channel as at [Noinoi updates](https://t.me/BAZIGARXD)
 
 ## Heroku Deployment 💜
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/hyko-xd/NoinoiRobot)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/santhu113/NoinoiBeta.git)
 
 # Credits 💖
 - [bazigar](https://github.com/hyko-xd) ``Dev``
